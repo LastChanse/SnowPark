@@ -1,0 +1,51 @@
+#update {
+    -fx-background-color: #1115;
+    -fx-border-color: rgb(73, 140, 81);
+    -fx-border-style: solid;
+    -fx-border-width: 2;
+}
+
+#update:hover {
+    -fx-border-color: rgb(118, 227, 131);
+}
+
+#update:pressed {
+    -fx-background-color: #0000;
+}
+
+.button {
+    -fx-text-fill: #fff;
+    -fx-font-size: 24;
+    -fx-pref-width: 200px;
+    -fx-background-color: rgb(73, 140, 81);
+}
+
+.button:hover {
+    -fx-background-color: rgba(73, 140, 81, 0.8);
+}
+
+.button:pressed {
+    -fx-background-color: rgb(118, 227, 131);
+}
+
+.label {
+    -fx-text-fill: #111;
+    -fx-font-size: 24;
+}
+
+.text-field {
+    -fx-font-size: 18;
+}
+
+.top-label {
+    -fx-text-fill: #fff;
+    -fx-font-size: 18;
+}
+
+.top-main {
+    -fx-background-color: rgb(73, 140, 81);
+}
+
+.left-main {
+    -fx-background-color: rgb(118, 227, 131);
+}

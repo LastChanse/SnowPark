@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <left>
+      <AnchorPane maxHeight="1.7976931348623157E308" maxWidth="-Infinity" styleClass="left-main" BorderPane.alignment="CENTER">
+         <children>
+            <Button mnemonicParsing="false" onAction="#exit" text="выход" AnchorPane.bottomAnchor="10.0" />
+         </children>
+      </AnchorPane>
+   </left>
+   <center>
+      <AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" BorderPane.alignment="CENTER" />
+   </center>
+   <top>
+      <VBox maxHeight="-Infinity" maxWidth="1.7976931348623157E308" styleClass="top-main" BorderPane.alignment="CENTER">
+         <children>
+            <HBox maxHeight="-Infinity" maxWidth="-Infinity">
+               <children>
+                  <Label styleClass="top-label" text="Пользователь: " />
+                  <Label fx:id="FIO" styleClass="top-label" text="ФИО" />
+               </children>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity">
+               <children>
+                  <Label styleClass="top-label" text="Роль: " />
+                  <Label fx:id="role" styleClass="top-label" text="должность" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </top>
+</BorderPane>
